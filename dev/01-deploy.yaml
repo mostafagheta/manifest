@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: weather-app
-          image: abdelhameed208/atos-weather-app:dev-1.0.13
+          image: abdelhameed208/atos-weather-app:dev-1.0.14
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
